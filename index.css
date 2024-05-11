@@ -2,10 +2,23 @@
 :root {
   --primary-bg: #1a2639;
   --main-accent: #5e63b6;
-  --tertiary-accent: #f5c7f7;
+  --secondary-accent: #f5c7f7;
   --main-txt-clr: #ffffff;
+  --secondary-txt-clr: #a393eb;
 }
 
 body {
   background-color: var(--primary-bg);
+  font-family: Inria Sans;
+}
+
+/*Nav-Bar*/
+.nav-bar {
+  color: var(--main-accent);
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }

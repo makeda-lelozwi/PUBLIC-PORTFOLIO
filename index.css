@@ -1,0 +1,11 @@
+/*Base Styles*/
+:root {
+  --primary-bg: #1a2639;
+  --main-accent: #5e63b6;
+  --tertiary-accent: #f5c7f7;
+  --main-txt-clr: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg);
+}

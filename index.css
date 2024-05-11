@@ -10,23 +10,22 @@
 body {
   background-color: var(--primary-bg);
   color: var(--main-txt-clr);
-  font-family: Inria Sans;
+  font-family: "Inria Sans";
 }
 
 /*Nav-Bar*/
 .nav-bar {
-  margin-left: 60rem;
+  display: flex;
 }
 
 ul {
-  display: flex;
-  gap: 2rem;
   list-style: none;
   font-weight: bold;
 }
 
 li {
-  font-size: 1.3rem;
+  font-family: "Inter";
+  font-size: 1rem;
 }
 
 a {
@@ -66,4 +65,26 @@ a {
   background-color: var(--secondary-accent);
   margin-left: 10rem;
   margin-top: -4rem;
+}
+
+.hello {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.info-div .name {
+  font-family: "Gothic A1";
+  font-size: 2rem;
+  margin: 0;
+}
+
+.info-div .title {
+  color: var(--main-accent);
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.info-div .job-desc {
+  font-size: 1rem;
 }

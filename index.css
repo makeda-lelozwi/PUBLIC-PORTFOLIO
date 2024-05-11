@@ -9,6 +9,7 @@
 
 body {
   background-color: var(--primary-bg);
+  color: var(--main-txt-clr);
   font-family: Inria Sans;
 }
 
@@ -32,4 +33,37 @@ a {
   color: var(--main-accent);
   cursor: pointer;
   text-decoration: none;
+}
+
+/* Intro section */
+.intro {
+  display: flex;
+  gap: 5rem;
+  margin: 5rem;
+  align-items: center;
+}
+
+.front-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image-circle-one {
+  height: 50px;
+  width: 50px;
+  z-index: 20;
+  border-radius: 50%;
+  background-color: var(--main-accent);
+}
+
+.image-circle-two {
+  height: 50px;
+  width: 50px;
+  z-index: -5;
+  border-radius: 50%;
+  background-color: var(--secondary-accent);
+  margin-left: 10rem;
+  margin-top: -4rem;
 }

@@ -14,11 +14,22 @@ body {
 
 /*Nav-Bar*/
 .nav-bar {
-  color: var(--main-accent);
+  margin-left: 60rem;
 }
 
 ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+  font-weight: bold;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--main-accent);
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -4,7 +4,7 @@
   --main-accent: #6643b5;
   --secondary-accent: #f5c7f7;
   --main-txt-clr: #ffffff;
-  --secondary-txt-clr: #a393eb;
+  --secondary-txt-clr: #8594e4;
 }
 
 body {
@@ -119,4 +119,63 @@ a:hover {
   justify-content: space-between;
   gap: 1rem;
   /* background-color: var(--main-accent); */
+}
+
+/* About Me */
+.about-section {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-div {
+  margin-top: 7rem;
+  width: 30rem;
+  height: 20rem;
+  border-color: var(--secondary-txt-clr);
+  border-style: solid;
+  border-radius: 8%;
+}
+
+.about-me-div-title {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: var(--secondary-txt-clr);
+  margin-top: -3.8rem;
+  margin-left: 2.9rem;
+  border-radius: 5%;
+}
+
+.about-me-header {
+  margin-left: 5px;
+  color: var(--primary-bg);
+}
+
+.about-me-desc {
+  position: absolute;
+  width: 20rem;
+  margin: 1rem;
+}
+.history-div {
+  margin-top: 7rem;
+  width: 30rem;
+  height: 20rem;
+  border-color: pink;
+  border-style: solid;
+  border-radius: 8%;
+}
+
+.history-div-title {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: pink;
+  border-radius: 5%;
+  margin-top: -3.8rem;
+  margin-left: 3.9rem;
+}
+
+.history-header {
+  margin-left: 5px;
+  color: var(--primary-bg);
 }

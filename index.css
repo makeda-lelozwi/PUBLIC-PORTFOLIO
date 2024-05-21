@@ -10,15 +10,16 @@
 body {
   background-color: var(--primary-bg);
   color: var(--main-txt-clr);
-  font-family: "Inria Sans";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Nav-Bar*/
 .nav-bar {
-  display: flex;
 }
 
 ul {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
   font-weight: bold;
 }
@@ -32,6 +33,13 @@ a {
   color: var(--main-accent);
   cursor: pointer;
   text-decoration: none;
+  transition: 0.5s ease;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: var(--secondary-txt-clr);
+  font-size: 1.6rem;
 }
 
 /* Intro section */
@@ -87,4 +95,16 @@ a {
 
 .info-div .job-desc {
   font-size: 1rem;
+}
+
+/* Tech Stack */
+
+.tech-stack-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icons {
+  color: #5e63b6;
 }

@@ -1,7 +1,7 @@
 /*Base Styles*/
 :root {
-  --primary-bg: #1a2639;
-  --main-accent: #5e63b6;
+  --primary-bg: #062925;
+  --main-accent: #6643b5;
   --secondary-accent: #f5c7f7;
   --main-txt-clr: #ffffff;
   --secondary-txt-clr: #a393eb;
@@ -10,7 +10,7 @@
 body {
   background-color: var(--primary-bg);
   color: var(--main-txt-clr);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Inria Sans";
 }
 
 /*Nav-Bar*/
@@ -45,56 +45,55 @@ a:hover {
 /* Intro section */
 .intro {
   display: flex;
-  gap: 5rem;
-  margin: 5rem;
+  gap: 4rem;
+  margin: 4rem;
   align-items: center;
 }
 
 .front-image {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   object-fit: cover;
-}
-
-.image-circle-one {
-  height: 50px;
-  width: 50px;
-  z-index: 20;
-  border-radius: 50%;
-  background-color: var(--main-accent);
+  margin-top: 2rem;
 }
 
 .image-circle-two {
-  height: 50px;
-  width: 50px;
+  height: 430px;
+  width: 430px;
   z-index: -5;
   border-radius: 50%;
-  background-color: var(--secondary-accent);
-  margin-left: 10rem;
-  margin-top: -4rem;
+  background-color: var(--main-accent);
+  /* margin-left: 15rem;
+  margin-top: -4rem; */
+}
+
+.info-div {
+  margin-top: -6rem;
 }
 
 .hello {
-  font-style: italic;
-  font-size: 1.5rem;
+  font-family: "Inter";
+  font-size: 1.3rem;
+  font-weight: bold;
   margin-bottom: 0;
+  color: var(--main-accent);
 }
 
 .info-div .name {
-  font-family: "Gothic A1";
-  font-size: 2rem;
+  font-family: "Inter";
+  font-size: 3.4rem;
   margin: 0;
 }
 
 .info-div .title {
   color: var(--main-accent);
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.8rem;
+  margin: 0;
 }
 
 .info-div .job-desc {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 /* Tech Stack */
@@ -104,12 +103,14 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: -2rem;
 }
 
 .current-stack {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--main-accent);
   font-weight: bold;
+  font-family: "Inter";
 }
 
 .tech-stack-icons {

@@ -1,6 +1,6 @@
 /*Base Styles*/
 :root {
-  --primary-bg: #062925;
+  --primary-bg: #22213d;
   --main-accent: #6643b5;
   --secondary-accent: #f5c7f7;
   --main-txt-clr: #ffffff;
@@ -8,9 +8,15 @@
 }
 
 body {
-  background-color: var(--primary-bg);
+  background: linear-gradient(
+    178.1deg,
+    rgb(60, 55, 106) 8.5%,
+    rgb(23, 20, 69) 82.4%
+  );
+
   color: var(--main-txt-clr);
   font-family: "Inria Sans";
+  margin: 0;
 }
 
 /*Nav-Bar*/
@@ -22,6 +28,10 @@ body {
   justify-content: center;
   list-style: none;
   font-weight: bold;
+}
+
+.nav-bar-list li {
+  filter: drop-shadow(1px 12px 10px #000000);
 }
 
 li {
@@ -179,3 +189,99 @@ a:hover {
   margin-left: 5px;
   color: var(--primary-bg);
 }
+
+/* Contact section */
+.contact-div {
+  background: var(--secondary-accent);
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color: var(--primary-bg);
+}
+
+.contact-div a {
+  color: var(--primary-bg);
+  font-size: 1rem;
+}
+
+.contact-div h4 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.5rem;
+  transition: ease 0.3s;
+}
+
+.contact-links:hover {
+  color: var(--secondary-txt-clr);
+}
+
+/*Portfolio Section*/
+
+.portfolio-div{
+  border-color: red;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.portfolio-div h3 {
+  border-color: red;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-accent);
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.portfolio-piece {
+  border-color: green;
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  padding: 1rem;
+}
+
+.portfolio-piece h4 {
+  border-color: blue;
+  border-style: solid;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.piece-image-div {
+  border-color: pink;
+  border-style: solid;
+  width: 20rem;
+  height: 12rem;
+  grid-column-start: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.portfolio-piece-desc {
+  border-color: orange;
+  border-style: solid;
+  
+}
+
+

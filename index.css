@@ -4,7 +4,7 @@
   --main-accent: #6643b5;
   --secondary-accent: #f5c7f7;
   --main-txt-clr: #ffffff;
-  --secondary-txt-clr: #8594e4;
+  --secondary-txt-clr: #a2c11c;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   );
 
   color: var(--main-txt-clr);
-  font-family: "Inria Sans";
+  font-family: "Inter";
   margin: 0;
 }
 
@@ -74,8 +74,6 @@ a:hover {
   z-index: -5;
   border-radius: 50%;
   background-color: var(--main-accent);
-  /* margin-left: 15rem;
-  margin-top: -4rem; */
 }
 
 .info-div {
@@ -97,7 +95,7 @@ a:hover {
 }
 
 .info-div .title {
-  color: var(--main-accent);
+  color: var(--secondary-txt-clr);
   font-size: 1.8rem;
   margin: 0;
 }
@@ -128,7 +126,6 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
-  /* background-color: var(--main-accent); */
 }
 
 /* About Me */
@@ -192,7 +189,7 @@ a:hover {
 
 /* Contact section */
 .contact-div {
-  background: var(--secondary-accent);
+  background: var(--secondary-txt-clr);
   display: flex;
   flex-direction: column;
   height: 120px;
@@ -270,7 +267,17 @@ a:hover {
   object-position: center;
 }
 
+/*History Section*/
 
+.history-section {
+  margin-left: 0.5rem;
+  font-family: "Inria Sans"
+}
+
+.dates {
+  color: var(--secondary-txt-clr);
+  font-weight: bold;
+}
 
 
 

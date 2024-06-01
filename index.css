@@ -60,6 +60,10 @@ a:hover {
   align-items: center;
 }
 
+.image-div {
+  margin-left: 4rem;
+}
+
 .front-image {
   height: 400px;
   width: 400px;
@@ -139,10 +143,10 @@ a:hover {
 .about-me-div {
   margin-top: 7rem;
   width: 30rem;
-  height: 20rem;
+  height: 10rem;
   border-color: var(--secondary-txt-clr);
   border-style: solid;
-  border-radius: 8%;
+  border-radius: 2%;
 }
 
 .about-me-div-title {
@@ -164,13 +168,14 @@ a:hover {
   width: 20rem;
   margin: 1rem;
 }
+
 .history-div {
   margin-top: 7rem;
   width: 30rem;
-  height: 20rem;
+  height: 10rem;
   border-color: var(--secondary-accent);
   border-style: solid;
-  border-radius: 8%;
+  border-radius: 2%;
 }
 
 .history-div-title {
@@ -185,6 +190,16 @@ a:hover {
 .history-header {
   margin-left: 5px;
   color: var(--primary-bg);
+}
+
+.history-section {
+  margin-left: 0.5rem;
+  font-family: "Inria Sans";
+}
+
+.dates {
+  color: var(--secondary-txt-clr);
+  font-weight: bold;
 }
 
 /* Contact section */
@@ -217,9 +232,8 @@ a:hover {
   justify-content: space-between;
   gap: 1rem;
   font-size: 1.5rem;
-  
 }
-.contact-links a{
+.contact-links a {
   transition: ease 0.3s;
 }
 .contact-links a:hover {
@@ -228,7 +242,7 @@ a:hover {
 
 /*Portfolio Section*/
 
-.portfolio-div{
+.portfolio-div {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -238,7 +252,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--secondary-accent);
+  color: var(--secondary-txt-clr);
   font-size: 2rem;
   font-style: italic;
 }
@@ -246,18 +260,20 @@ a:hover {
 .portfolio-piece {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
- 
 }
 
 .portfolio-piece h4 {
   height: 3rem;
   font-size: 1.5rem;
+  margin-bottom: -1rem;
+  margin-left: 9rem;
 }
 
 .piece-image-div {
   width: 25rem;
   height: 12rem;
   grid-column-start: 1;
+  margin-left: 9rem;
 }
 
 .image {
@@ -267,19 +283,108 @@ a:hover {
   object-position: center;
 }
 
-/*History Section*/
-
-.history-section {
-  margin-left: 0.5rem;
-  font-family: "Inria Sans"
-}
-
-.dates {
-  color: var(--secondary-txt-clr);
+.tech-used {
+  font-family: "Inria Sans";
+  font-size: 1rem;
   font-weight: bold;
+  color: var(--secondary-txt-clr);
 }
 
+/*Media Queries*/
 
+@media (min-width: 768px) and (max-width: 800px) {
+  html,
+  body {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+    padding: 0;
+  }
 
+  .nav-bar-list {
+    justify-content: center;
+  }
 
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin-top: -3rem;
+  }
 
+  .image-div {
+    margin-left: 20px;
+  }
+
+  .front-image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .image-circle-two {
+    height: 220px;
+    width: 220px;
+  }
+
+  .info-div {
+    margin-top: 9rem;
+  }
+
+  .hello {
+    font-size: 1rem;
+    color: var(--secondary-txt-clr);
+  }
+
+  .info-div .name {
+    font-family: "Inter";
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .info-div .title {
+    color: var(--secondary-txt-clr);
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  .info-div .job-desc {
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-left: -15rem;
+  }
+
+  .contact-div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-section {
+    gap: 0.5rem;
+    margin: 0;
+  }
+
+  .history-div {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .about-me-div {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .current-stack {
+    font-size: 2.3rem;
+  }
+  .portfolio-piece {
+    grid-gap: 2rem;
+  }
+
+  .portfolio-piece h4 {
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: -3rem;
+  }
+
+}

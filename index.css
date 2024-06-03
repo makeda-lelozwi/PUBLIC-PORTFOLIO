@@ -156,7 +156,7 @@ a:hover {
 .about-me-div {
   margin-top: 7rem;
   width: 30rem;
-  height: 10rem;
+  height: 20rem;
   border-color: var(--secondary-txt-clr);
   border-style: solid;
   border-radius: 2%;
@@ -182,12 +182,13 @@ a:hover {
 }
 
 .history-div {
-  margin-top: 7rem;
+  display: none;
+  /* margin-top: 7rem;
   width: 30rem;
   height: 10rem;
   border-color: var(--secondary-accent);
   border-style: solid;
-  border-radius: 2%;
+  border-radius: 2%; */
 }
 
 .history-div-title {
@@ -388,8 +389,8 @@ a:hover {
   }
 
   .about-me-div {
-    width: 20rem;
-    height: 12rem;
+    width: 24rem;
+    height: 20rem;
   }
 
   .current-stack {
@@ -570,7 +571,7 @@ a:hover {
 
   .about-me-div {
     width: 100%;
-    height: 14rem;
+    height: 45rem;
     font-size: 1.5rem;
   }
 

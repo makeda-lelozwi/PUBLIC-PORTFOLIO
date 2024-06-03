@@ -75,6 +75,7 @@ a:hover {
 
 .image-div {
   margin-left: 4rem;
+  margin-top: 4rem;
 }
 
 .front-image {
@@ -129,6 +130,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 
 .current-stack {
@@ -146,6 +148,12 @@ a:hover {
 }
 
 /* About Me */
+
+#About-Me {
+  background-color: var(--secondary-txt-clr);
+  height: 35rem;
+}
+
 .about-section {
   display: flex;
   gap: 2rem;
@@ -155,30 +163,34 @@ a:hover {
 
 .about-me-div {
   margin-top: 7rem;
-  width: 30rem;
-  height: 20rem;
-  border-color: var(--secondary-txt-clr);
-  border-style: solid;
+  width: 55rem;
+  height: 18rem;
   border-radius: 2%;
+  background-color: rgb(60, 55, 106);
 }
 
 .about-me-div-title {
-  height: 2.5rem;
-  width: 8rem;
+  height: 3rem;
+  width: 12rem;
   background-color: var(--secondary-txt-clr);
-  margin-top: -3.8rem;
+  margin-top: -2.9rem;
   margin-left: 2.9rem;
   border-radius: 5%;
+  background-color: rgb(60, 55, 106);
 }
 
 .about-me-header {
   margin-left: 5px;
-  color: var(--primary-bg);
+  color: var(--main-txt-clr);
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .about-me-desc {
-  width: 20rem;
+  width: 49rem;
   margin: 1rem;
+  font-size: 1.4rem;
 }
 
 .history-div {

@@ -122,6 +122,25 @@ a:hover {
   font-size: 1.3rem;
 }
 
+.resume-button {
+  background-color: var(--secondary-txt-clr);
+
+  border: none;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 5%;
+
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.resume-button a {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-bg);
+}
+
 /* Tech Stack */
 
 .tech-stack-div {

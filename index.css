@@ -268,7 +268,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 120px;
-  width: max-content;
+  width: 100%;
   align-items: center;
   justify-content: center;
   color: var(--primary-bg);
